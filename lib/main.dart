@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:minipro_mba/pages/User/CheckLotto.dart';
+import 'package:minipro_mba/pages/User/ResultLotto.dart';
 import 'package:minipro_mba/pages/login.dart';
 
 void main() {
@@ -17,7 +19,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LoginPage(),
+      home: ResultLottoPage(),
     );
   }
 }
