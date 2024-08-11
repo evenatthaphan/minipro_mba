@@ -125,7 +125,7 @@ class _ResultLottoPageState extends State<ResultLottoPage> {
                   "บาท",
                   style: TextStyle(fontSize: 14),
                 ),
-                FilledButton(onPressed: () {}, child: Text("ขึ้นเงิน"))
+                FilledButton(onPressed: () {}, child: const Text("ขึ้นเงิน"))
               ],
             ),
           )),
