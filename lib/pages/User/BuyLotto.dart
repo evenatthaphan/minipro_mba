@@ -11,5 +11,6 @@ class _BuylottoPageState extends State<BuylottoPage> {
   @override
   Widget build(BuildContext context) {
     return Container();
+    
   }
 }
