@@ -126,7 +126,7 @@ class _ResultLottoPageState extends State<ResultLottoPage> {
       crossAxisAlignment: CrossAxisAlignment.center,
       children: [
         Image.asset("assets/images/Cheap.png"),
-        const SizedBox(height: 20),
+        const Padding(padding: EdgeInsets.only(top: 10),),
         const Text(
           "451238",
           style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
